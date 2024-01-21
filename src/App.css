@@ -82,7 +82,7 @@ body {
     position: absolute;
     right: 0;
     top: 100px;
-    background-color: var(--navbar-footer-color);;
+    background-color: var(--navbar-footer-color);
     width: 0px;
     height: calc(100vh - 60px);
     transition: all 0.2s ease-in;
@@ -108,7 +108,7 @@ body {
 .footer {
   height: 250px;
   display: flex;
-  background-color: var(--navbar-footer-color);;
+  background-color: var(--navbar-footer-color);
   color: var(--navbar-footer-font-color);
   position: relative;
   align-items: center;
@@ -304,6 +304,6 @@ textarea {
 }
 
 .high-contrast {
-  background-color: var(--navbar-footer-color);;
+  background-color: var(--navbar-footer-color);
   color: white;
 }
