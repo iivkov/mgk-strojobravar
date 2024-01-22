@@ -16,7 +16,7 @@ const HomeComponent = () => {
         <h1>Dobrodošli!</h1>
         <div className="container">
             <div className={`box left ${animate ? 'enter' : 'left-enter'}`}>
-                <img src={slika} alt="Slika građevinskih radova." style={{ width: '100%', height: 'auto' }} />
+                <img src={slika} alt="Slika HyperCUT CNC stroja." style={{ width: '100%', height: 'auto' }} />
             </div>
             {/* <div className="spacer"></div> */}
             <div className={`box right ${animate ? 'enter' : 'right-enter'}`}>

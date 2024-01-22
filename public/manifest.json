@@ -1,16 +1,21 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "MGK STROJOBRAVAR",
+  "name": "MGK STROJOBRAVAR, obrt za proizvodnju i montažu",
   "icons": [
     {
       "src": "MGK_icon.png",
-      "sizes": "63x63",
+      "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "MGK_icon154.png",
+      "src": "MGK_icon192.png",
       "type": "image/png",
-      "sizes": "154x154"
+      "sizes": "192x192"
+    },
+    {
+      "src": "MGK_icon512.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }
   ],
   "start_url": ".",
