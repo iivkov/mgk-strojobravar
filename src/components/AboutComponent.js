@@ -22,7 +22,7 @@ const AboutComponent = () => {
                     </div>
                 {/* <div className="spacer"></div> */}
                     <div className={`box right ${animate ? 'enter' : 'right-enter'}`}>
-                        <img src={slika} alt="Slika građevinskih radova." style={{ width: '100%', height: 'auto' }} />
+                        <img src={slika} alt="Slika hidrauličnih škara." style={{ width: '100%', height: 'auto' }} />
                     </div>
                 </div>
             </div>
