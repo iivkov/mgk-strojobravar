@@ -1,6 +1,6 @@
 import React, {useState, useEffect } from 'react';
 import '../App.css';
-import slika from '../assets/Hidraulične škare.png';
+import slika from '../assets/Hidraulicne skare.png';
 
 const AboutComponent = () => {
     const [animate, setAnimate] = useState(false);
