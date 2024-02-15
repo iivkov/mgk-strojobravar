@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import EUnoteSite from './EUnoteSite';
 import '../App.css';
 
 const InformationComponent = () => {
@@ -10,6 +11,7 @@ const InformationComponent = () => {
 
     return (
     <div className="main_content">
+        <EUnoteSite/>
         <h1>Osnovni podatci</h1>
         <div className="container">
             <div className={`box left ${animate ? 'enter' : 'left-enter'}`}>

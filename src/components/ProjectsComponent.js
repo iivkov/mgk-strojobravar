@@ -1,31 +1,44 @@
 import React from 'react';
 import '../App.css';
 import Petrinja from '../assets/Petrinja.jpg';
+import EUnoteSite from './EUnoteSite';
 import EUnoteProject from './EUnoteProject';
 
 const ProjectsComponent = () => {
     
     return (
     <div className="main_content">
+        <EUnoteSite/>
         <h1>NOVI RAZVOJ U PETRINJI MGK STROJOBRAVAR OBRT</h1>
         <h2>Kod projekta: KK.08.2.1.16.0090</h2>
         <h2>Naziv poziva: Podrška razvoju poduzetništva u gradu Petrinji</h2>
+        <h2>Posredničko tijelo razine 1 (PT1): Ministarstvo regionalnoga razvoja i fondova Europske unije</h2>
+        <h2>Posredničko tijelo razine 2 (PT2): Središnja agencija za financiranje i ugovaranje programa i projekata Europske unije</h2>
         <div className="container">
             <img src={Petrinja} alt="Slika Petrinje." style={{ width: '100%', height: 'auto' }} />
-            <p>Kroz projekt planira se nabava novih roba, kombinirane škare i probijačica, škare hidraulične, apkant preša te CNC plazma rezač. 
-                Ostvarivanjem te nabave Prijavitelj će povećati svoje kapacitete za pružanje usluga, očuvat će se postojeća radna mjesta, otvorit će se nova radna mjesta, 
-                povećat će se prihod Prijavitelja, konkurentnost na postojećem i novom mikro i makro tržištu. Djelatnici Prijavitelja će steći nova znanja povezana s korištenjem novih roba koje se nabavljaju.</p>
-            <div className="box">
-                <h3>Informacije o troškovima</h3>
-                <p>Ukupni prihvatljivi troškovi (EUR): 210.554,78</p>
-                <p>Ukupna bespovratna sredstva (EUR): 178.971,56</p>
+            <p>Cilj ovog projekta je održiva fizička, socijalna i gospodarska regeneracija grada Petrinje, s ciljem smanjenja socijalnih nejednakosti, isključenosti i siromaštva. Nabavom novih roba i/ili usluga, Prijavitelj će povećati svoju: konkurentnost i održivost poslovanja i proizvodne kapacitete. Prijavitelj će otvoriti nova tržišta i povećat će mu se prihod. Projekt je usmjeren na djelatnike Prijavitelja, kupce i dobavljače kao ciljne skupine projekta, ali i sve građane Republike Hrvatske i to upravo kroz očuvanje postojećih radnih mjesta i otvaranje novih. Projekt vodi računa o zaštiti okoliša.</p>
+        </div>
+        <div className="container">
+            <div className="box-EU">
+                <h3>Podatci o korisniku</h3>
+                <p>Prijavitelj: MGK STROJOBRAVAR, OBRT ZA PROIZVODNJU I MONTAŽU</p>
+                <p>Jedinstveni broj prijavitelja: 90826361</p>
+                <p>Adresa: Trnjanska cesta 89, Zagreb</p>
+                <p>E-pošta: mgk.strojobravar@gmail.com</p>
+                <p>Telefon: +385 989068432</p>
+                <p>Odgovorna osoba: STIPAN SKOČIBUŠIĆ</p>
+            </div>
+            <div className="box-EU">
+                <h3>Vrijeme provedbe</h3>
+                <p>Početak provedbe: 19.04.2022.</p>
+                <p>Kraj provedbe: 29.11.2023.</p>
+                <p>Trajanje provedbe (mjeseci): 20</p>
             </div>
             {/* <div className="spacer"></div> */}
-            <div className="box">
-                <h3>Vrijeme provedbe</h3>
-                <p>Početak provedbe: NN.NN.NNNN.</p>
-                <p>Kraj provedbe: NN.NN.NN.</p>
-                <p>Trajanje provedbe (mjeseci): NN</p>
+            <div className="box-EU">
+                <h3>Informacije o troškovima</h3>
+                <p>Ukupni prihvatljivi troškovi (EUR): 210.554,78</p>
+                <p>Ukupna bespovratna sredstva (EUR): 178.971,56 (EU sufinanciranje)</p>
             </div>
         </div>
         <EUnoteProject />
