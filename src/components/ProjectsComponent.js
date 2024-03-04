@@ -209,11 +209,11 @@ const ProjectsComponent = () => {
         </div>
         <div className="container">
             <div className="box">
-                <img src={slika1} alt="Slika građevinskih radova." style={{ width: '100%', height: 'auto' }} />
-                <img src={slika2} alt="Slika građevinskih radova." style={{ width: '100%', height: 'auto' }} />
-                <img src={slika3} alt="Slika građevinskih radova." style={{ width: '100%', height: 'auto' }} />
-                <img src={slika4} alt="Slika građevinskih radova." style={{ width: '100%', height: 'auto' }} />
-                <img src={slika5} alt="Slika građevinskih radova." style={{ width: '100%', height: 'auto' }} />
+                <img src={slika1} alt="CNC plazma rezač." style={{ width: '100%', height: 'auto' }} />
+                <img src={slika2} alt="CNC plazma rezač." style={{ width: '100%', height: 'auto' }} />
+                <img src={slika3} alt="Hidraulične škare." style={{ width: '100%', height: 'auto' }} />
+                <img src={slika4} alt="H-90SSD." style={{ width: '100%', height: 'auto' }} />
+                <img src={slika5} alt="Apkant preša." style={{ width: '100%', height: 'auto' }} />
             </div>
         <div/>
         <EUnoteProject />
